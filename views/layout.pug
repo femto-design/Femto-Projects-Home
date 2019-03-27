@@ -1,0 +1,28 @@
+include header.pug
+
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='A collection of fast and easy to use utility tools.')
+    
+    title Femto Tools
+    
+    link(rel='shortcut icon', href='/images/favicon.ico')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic')
+    link(rel='stylesheet', href='/css/normalize.css')
+    link(rel='stylesheet', href='/css/milligram.css')
+    link(rel='stylesheet', href='/css/milligram.header.css')
+    link(rel='stylesheet', href='/css/index.css')
+
+    block head
+  body
+    main.wrapper
+      block header
+        - const header = { navList: [{ href: '/sites', name: 'Sites' }]}
+        +header(header)
+
+      block content
+
+      block footer

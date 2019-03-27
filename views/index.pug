@@ -1,0 +1,29 @@
+extends layout.pug
+
+block content
+  section.container
+    p 
+      b Welcome to Femto Tools! 
+      | This is designed to be a framework for open source software that provides
+      | unified account management, security and removes the burden from creating
+      | small sites.  You are currently on #[a(href='https://femto.dev') https://femto.dev],
+      | a hosted instance of Femto Tools.
+    
+    blockquote.warning
+      p
+        b Achtung! 
+        | This site is still under heavy development.  Whilst many of the services
+        | are usable, expect to find lots of missing polish, broken links, incomplete
+        | docs, and so on.  Here be dragons!
+
+    .row
+      .column
+        a(href='https://femto.host')
+          h4 Hosting Service
+        ul
+          li Supports uploading of files, media and text.
+          li Automatic preview generation as well as web viewer.
+          li No download limits, large upload limits (up to 8GBs)
+      .column
+        a(href='https://femto.host')
+          img(src='/images/examples/hoster.png')

@@ -1,0 +1,13 @@
+include login.pug
+
+mixin header(header)
+  nav.navigation
+    section.container
+      a.navigation-title(href='/')
+        h1.title= header.name || 'Femto Tools'
+      ul.navigation-list.float-right
+        if header.navList
+          for item in header.navList
+            li.navigation-item
+              a.navigation-link(href=item.href) #{item.name}
+            +login_header()

@@ -1,0 +1,26 @@
+.warning {
+  border-left: 0.3rem solid #ff6961;
+  background: #ffcac7;
+  /* margin-left: 2rem; */
+  /* margin-right: 2rem; */
+}
+
+li {
+  margin-bottom: 0rem;
+}
+
+ul {
+  margin-left: 2rem;
+}
+
+.popover-container:hover .popover {
+  display: block;
+}
+
+.popover {
+  z-index: 50;
+}
+
+.small {
+  font-size: 50%;
+}

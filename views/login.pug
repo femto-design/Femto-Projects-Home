@@ -1,0 +1,13 @@
+mixin login_header()
+  if user
+    li.navigation-item.popover-container
+      span #[a.navigation-link(href='#')= user.name] #[span.small  ▼]
+        #popover-grid.popover
+          ul.popover-list
+            li.popover-item
+              a.popover-link(href='/me', title=user.name)= user.name
+            li.popover-item
+              a.popover-link(href='/login', title='Add Account') Add Account
+  else
+    li.navigation-item
+      a.navigation-link(href='/login') Login
