@@ -18,7 +18,12 @@
   },
   "homepage": "https://github.com/femto-design/home#readme",
   "dependencies": {
+    "@femto-host/config": "^1.0.0",
+    "connect-mongo": "^2.0.3",
+    "cookie-parser": "^1.4.4",
     "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.20",
     "pug": "^2.0.3"
   }
 }
