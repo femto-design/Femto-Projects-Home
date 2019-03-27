@@ -1,2 +1,2 @@
-# home
-the default site
+# Home
+The default femto site.
