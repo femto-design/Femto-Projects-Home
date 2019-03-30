@@ -1,2 +1,2 @@
-# Home
-The default femto site.
+# Femto Projects Home
+The femto projects home site.
