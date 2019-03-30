@@ -8,6 +8,6 @@ module.exports = {
     secret: 'CHANGE_ME'
   },
   mongo: {
-    uri: 'mongodb://localhost:27017/authentication'
+    uri: 'mongodb://localhost:27017/femto_home'
   }
 }

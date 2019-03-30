@@ -1,2 +1,2 @@
-# Femto Projects Home
-The femto projects home site.
+# Femto Home Page
+The femto home page.
